@@ -1,0 +1,94 @@
+<html>
+<head>
+   <meta charset="UTF-8">
+    <link rel="shortcut icon" href="https://codehs.com/uploads/8b9194b944728ceaff1e648dfec3f693" type="image">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+   <style>
+        #mask {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            z-index: 1000;
+            color: white;
+            text-align: center;
+            padding-top: 20%;
+            font-size: 2em;
+        }
+    </style>
+<style>
+html, body, div, iframe {
+margin: 0;
+padding: 0;
+height: 100%;
+border: none;
+}
+iframe {
+display: block;
+width: 100%;
+height: 100%;
+border: none;
+overflow: hidden;
+}
+</style>
+ <style>
+    #myIframe {
+      display: none; /* Initially hidden */
+      width: 100%;
+      height: 300px;
+      border: 1px solid #ccc;
+    }
+    button {
+      margin-bottom: 10px;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+  </style>
+
+
+<iframe src="https://goshadow.net/"></iframe>
+<script>
+      const iframe = document.querySelector("iframe");
+      const stl = iframe.style;
+      stl.border = stl.outline = 'none';
+      stl.width = '100vw';
+      stl.height = '100vh';
+      stl.position = 'fixed';
+      stl.left = stl.right = stl.top = stl.bottom = '0';
+      iframe.src = href;
+      }
+      </script>
+ <button id="toggleButton">Show iFrame</button>
+  <iframe id="myIframe" src="https://join.wewillwrite.com/"></iframe>
+
+  <script>
+    const button = document.getElementById('toggleButton');
+    const iframe = document.getElementById('myIframe');
+
+    button.addEventListener('click', () => {
+      if (iframe.style.display === 'none' || iframe.style.display === '') {
+        iframe.style.display = 'block';
+         iframe.width = '100vw';
+      iframe.height = '100vh';
+iframe.style.width = "100%";
+iframe.style.height = "100%";
+
+        button.textContent = 'Hide iFrame';
+      } else {
+        iframe.style.display = 'none';
+        button.textContent = 'Show iFrame';
+      iframe.width = '100vw';
+      iframe.height = '100vh';
+iframe.style.width = "100%";
+iframe.style.height = "100%";
+
+      }
+    });
+  </script>
+<button onclick="window.location.href='https://classroom.google.com';">Hide cickly</button>
+</html>
